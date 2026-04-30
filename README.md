@@ -10,7 +10,8 @@
     }
    ```
    + реализации
-   1.3 Абстракция обобщенного декоратора:
+   
+   1.2 Абстракция обобщенного декоратора:
    ```typescript
    export abstract class DrinkDecorator implements DrinkModel{
       protected _model! : DrinkModel;
